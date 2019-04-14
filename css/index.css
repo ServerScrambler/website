@@ -1,0 +1,88 @@
+*{
+  margin: 0 auto;
+  font-family:  sans-serif, Arial, Helvetica;
+  cursor: url('../aero-red.cur'), default;
+}
+body{
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*NavBar*/
+nav{
+  transition: 2s;
+  text-align: center;
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  height: 80px;
+}
+nav ul li{
+  list-style: none;
+  float: left;
+  margin-left: 33%;
+  background-color: #3f3f3f;
+  padding: 20px 25px 20px 25px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+nav ul li::after{
+  transition: 1s;
+}
+nav ul li:hover{
+  transition: 1s;
+  background-color: #aa0000;
+}
+.nomargin{
+  margin-left: 0px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+/*Banner*/
+#banner img{
+  width: 80%;
+  margin-left: 10%;
+}
+/*Features*/
+#features{
+  width: 80%;
+  margin-top: 20px;
+}
+.box{
+  padding: 10px 10px 10px 10px;
+  background-color: #3f3f3f;
+  color: white;
+  width: 25%;
+  border-radius: 5px;
+  float: left;
+  margin-left: 6%;
+}
+.box h1{
+  text-align: center;
+  font-size: 30px;
+}
+.box img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.box p{
+  text-align: center;
+}
+#box-nomargin{
+  margin-left: 5%;
+}
+/*Footer*/
+footer{
+  margin-top: 550px;
+  background-color: #3f3f3f;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+footer p{
+  padding-top: 15px;
+}
