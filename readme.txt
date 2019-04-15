@@ -1,4 +1,7 @@
-This website was created by Jack Foggarty.
+Welcome to my project.
 
-You are not allowed to use this unless you
-are given permission to.
+This project is based on Pacific Roleplay, a gaming community.
+
+This website was completely created by me, Jack Foggarty.
+
+Please do not use this/claim as your own.
