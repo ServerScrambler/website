@@ -12,7 +12,6 @@ body{
 }
 /*NavBar*/
 nav{
-  transition: 2s;
   text-align: center;
   width: 80%;
   margin-top: 2%;
@@ -26,7 +25,6 @@ nav ul li{
   background-color: #3f3f3f;
   padding: 20px 25px 20px 25px;
   font-size: 25px;
-  border-radius: 15px;
 }
 nav ul li:hover{
   transition: 1s;
